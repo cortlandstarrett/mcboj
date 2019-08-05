@@ -1,0 +1,78 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("11ce64f4-24a6-476e-add2-c48c82a9aa12",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'transform',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("1f922a6e-33d4-4539-a197-1c5b4ca375ff",
+	112,
+	"11ce64f4-24a6-476e-add2-c48c82a9aa12",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mcboj::transform');
+INSERT INTO DIM_DIA
+	VALUES ("1f922a6e-33d4-4539-a197-1c5b4ca375ff",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_SYNC
+	VALUES ("9e5d0fee-a363-49ea-b327-924c0e3f3d1b",
+	"00000000-0000-0000-0000-000000000000",
+	'transformApplication',
+	'',
+	'root_package = param.root_package;',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO S_SPARM
+	VALUES ("ffbfaf9e-694e-4a6d-a127-59f7141d5212",
+	"9e5d0fee-a363-49ea-b327-924c0e3f3d1b",
+	'root_package',
+	"9939c670-a721-4742-a824-ed4b0df4acd6",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("9939c670-a721-4742-a824-ed4b0df4acd6",
+	"00000000-0000-0000-0000-000000000000",
+	'inst_ref<Package>',
+	'',
+	'',
+	'../../../../mcooa/models/mcooa/ooaofooa/Element Packaging/Element Packaging.xtuml');
+INSERT INTO PE_PE
+	VALUES ("9e5d0fee-a363-49ea-b327-924c0e3f3d1b",
+	1,
+	"11ce64f4-24a6-476e-add2-c48c82a9aa12",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO PE_PE
+	VALUES ("11ce64f4-24a6-476e-add2-c48c82a9aa12",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../mcboj.xtuml');

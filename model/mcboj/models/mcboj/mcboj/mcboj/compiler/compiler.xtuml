@@ -1,0 +1,68 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("09b0f6e3-1227-468f-84f5-0367728079e1",
+	"00000000-0000-0000-0000-000000000000",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'compiler',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("a0877a4f-cf38-4817-81b2-e83aea111ad2",
+	112,
+	"09b0f6e3-1227-468f-84f5-0367728079e1",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mcboj::mcboj::mcboj::compiler');
+INSERT INTO DIM_DIA
+	VALUES ("a0877a4f-cf38-4817-81b2-e83aea111ad2",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO EP_PKGREF
+	VALUES ("09b0f6e3-1227-468f-84f5-0367728079e1",
+	"99249f5c-167e-439e-af2f-89337ccce658");
+INSERT INTO EP_PKG_PROXY
+	VALUES ("99249f5c-167e-439e-af2f-89337ccce658",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'compiler',
+	'',
+	0,
+	'../../../compiler/compiler.xtuml');
+INSERT INTO PE_PE
+	VALUES ("09b0f6e3-1227-468f-84f5-0367728079e1",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'mcboj',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../mcboj.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../../../mcboj.xtuml');

@@ -1,0 +1,68 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("4d4735c7-c98d-4bc9-817f-81b309285f13",
+	"00000000-0000-0000-0000-000000000000",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'transform',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("d8f78103-9d76-4a24-a2dc-74e2b13575f9",
+	112,
+	"4d4735c7-c98d-4bc9-817f-81b309285f13",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mcboj::mcboj::mcboj::transform');
+INSERT INTO DIM_DIA
+	VALUES ("d8f78103-9d76-4a24-a2dc-74e2b13575f9",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO EP_PKGREF
+	VALUES ("4d4735c7-c98d-4bc9-817f-81b309285f13",
+	"11ce64f4-24a6-476e-add2-c48c82a9aa12");
+INSERT INTO EP_PKG_PROXY
+	VALUES ("11ce64f4-24a6-476e-add2-c48c82a9aa12",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'transform',
+	'',
+	0,
+	'../../../transform/transform.xtuml');
+INSERT INTO PE_PE
+	VALUES ("4d4735c7-c98d-4bc9-817f-81b309285f13",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'mcboj',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../mcboj.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../../../mcboj.xtuml');

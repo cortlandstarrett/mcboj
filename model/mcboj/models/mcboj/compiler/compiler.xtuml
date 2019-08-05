@@ -1,0 +1,110 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("99249f5c-167e-439e-af2f-89337ccce658",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'compiler',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("e91333b9-e165-49b3-aafb-4e6a8d0da75e",
+	112,
+	"99249f5c-167e-439e-af2f-89337ccce658",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	200,
+	150,
+	0,
+	'',
+	'mcboj::compiler');
+INSERT INTO GD_GE
+	VALUES ("aabfc98e-78dd-4168-8b72-6495cb097214",
+	"e91333b9-e165-49b3-aafb-4e6a8d0da75e",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	21,
+	0,
+	'mcboj::compiler::mcboj');
+INSERT INTO GD_SHP
+	VALUES ("aabfc98e-78dd-4168-8b72-6495cb097214");
+INSERT INTO GD_NCS
+	VALUES ("aabfc98e-78dd-4168-8b72-6495cb097214");
+INSERT INTO DIM_ND
+	VALUES (200.000000,
+	150.000000,
+	"aabfc98e-78dd-4168-8b72-6495cb097214");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"aabfc98e-78dd-4168-8b72-6495cb097214",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("aabfc98e-78dd-4168-8b72-6495cb097214",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("e91333b9-e165-49b3-aafb-4e6a8d0da75e",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT
+	VALUES ("aa98ce32-f64b-4b9d-ba9d-ae8ecfbaec92",
+	"00000000-0000-0000-0000-000000000000",
+	'inst_ref<mcboj>',
+	'',
+	'');
+INSERT INTO S_IRDT
+	VALUES ("aa98ce32-f64b-4b9d-ba9d-ae8ecfbaec92",
+	0,
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_OBJ_PROXY
+	VALUES ("e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	'mcboj',
+	1,
+	'MCBOJ',
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'./mcboj/mcboj.xtuml');
+INSERT INTO PE_PE
+	VALUES ("aa98ce32-f64b-4b9d-ba9d-ae8ecfbaec92",
+	1,
+	"99249f5c-167e-439e-af2f-89337ccce658",
+	"00000000-0000-0000-0000-000000000000",
+	3);
+INSERT INTO S_DT
+	VALUES ("74d7cdbe-1d3a-4be3-8bac-63accb503900",
+	"00000000-0000-0000-0000-000000000000",
+	'inst_ref_set<mcboj>',
+	'',
+	'');
+INSERT INTO S_IRDT
+	VALUES ("74d7cdbe-1d3a-4be3-8bac-63accb503900",
+	1,
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO PE_PE
+	VALUES ("74d7cdbe-1d3a-4be3-8bac-63accb503900",
+	1,
+	"99249f5c-167e-439e-af2f-89337ccce658",
+	"00000000-0000-0000-0000-000000000000",
+	3);
+INSERT INTO PE_PE
+	VALUES ("99249f5c-167e-439e-af2f-89337ccce658",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../mcboj.xtuml');

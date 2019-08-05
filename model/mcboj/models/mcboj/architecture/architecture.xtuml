@@ -1,0 +1,46 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("e9d0469f-fa80-4f3d-81d3-175ec8d5f3a9",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'architecture',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("19be0b21-386e-4821-a507-960f7e7b4386",
+	112,
+	"e9d0469f-fa80-4f3d-81d3-175ec8d5f3a9",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mcboj::architecture');
+INSERT INTO DIM_DIA
+	VALUES ("19be0b21-386e-4821-a507-960f7e7b4386",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("e9d0469f-fa80-4f3d-81d3-175ec8d5f3a9",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../mcboj.xtuml');

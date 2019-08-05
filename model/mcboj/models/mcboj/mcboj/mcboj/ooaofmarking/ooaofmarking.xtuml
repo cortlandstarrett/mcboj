@@ -1,0 +1,68 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("39aad717-6fb6-46dc-8994-b3c8546315a5",
+	"00000000-0000-0000-0000-000000000000",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'ooaofmarking',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("cfe61929-0d33-4ce3-a2a4-be86598d2562",
+	112,
+	"39aad717-6fb6-46dc-8994-b3c8546315a5",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mcboj::mcboj::mcboj::ooaofmarking');
+INSERT INTO DIM_DIA
+	VALUES ("cfe61929-0d33-4ce3-a2a4-be86598d2562",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO EP_PKGREF
+	VALUES ("39aad717-6fb6-46dc-8994-b3c8546315a5",
+	"b97268c4-66eb-4387-8dbb-2d7d7751f166");
+INSERT INTO EP_PKG_PROXY
+	VALUES ("b97268c4-66eb-4387-8dbb-2d7d7751f166",
+	"346c775f-ce20-4599-8bbc-9b4256b4d2ed",
+	"346c775f-ce20-4599-8bbc-9b4256b4d2ed",
+	'ooaofmarking',
+	'',
+	0,
+	'../../../../../../org.xtuml.bp.ui.marking/models/org.xtuml.bp.ui.marking/ooaofmarking/ooaofmarking.xtuml');
+INSERT INTO PE_PE
+	VALUES ("39aad717-6fb6-46dc-8994-b3c8546315a5",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'mcboj',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../mcboj.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../../../mcboj.xtuml');

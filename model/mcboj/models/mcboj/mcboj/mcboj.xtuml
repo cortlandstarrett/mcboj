@@ -1,0 +1,70 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("bb61fd1e-a78a-466b-877f-d3ddef12fa8b",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("fdfe2315-cd82-49a9-8b77-ee7a759edcd3",
+	112,
+	"bb61fd1e-a78a-466b-877f-d3ddef12fa8b",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	200,
+	150,
+	0,
+	'',
+	'mcboj::mcboj');
+INSERT INTO GD_GE
+	VALUES ("d1c39a7b-bed9-4ca0-a238-4f10cdb720ec",
+	"fdfe2315-cd82-49a9-8b77-ee7a759edcd3",
+	"21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	98,
+	0,
+	'mcboj::mcboj::mcboj');
+INSERT INTO GD_SHP
+	VALUES ("d1c39a7b-bed9-4ca0-a238-4f10cdb720ec");
+INSERT INTO GD_NCS
+	VALUES ("d1c39a7b-bed9-4ca0-a238-4f10cdb720ec");
+INSERT INTO DIM_ND
+	VALUES (200.000000,
+	150.000000,
+	"d1c39a7b-bed9-4ca0-a238-4f10cdb720ec");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"d1c39a7b-bed9-4ca0-a238-4f10cdb720ec",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("d1c39a7b-bed9-4ca0-a238-4f10cdb720ec",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("fdfe2315-cd82-49a9-8b77-ee7a759edcd3",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("bb61fd1e-a78a-466b-877f-d3ddef12fa8b",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../mcboj.xtuml');

@@ -1,0 +1,160 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	'mcboj',
+	1,
+	'MCBOJ',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("e7f14818-c7c4-4c12-87b9-7e804b1a485d",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	'getDefaultInstance',
+	'',
+	"aa98ce32-f64b-4b9d-ba9d-ae8ecfbaec92",
+	0,
+	'select any mcboj from instances of MCBOJ where (selected.name == "default");
+if ( empty mcboj )
+  create object instance mcboj of MCBOJ;
+  mcboj.name = "default";
+  mcboj.projectroot = "";
+end if;
+return mcboj;',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO S_DT_PROXY
+	VALUES ("aa98ce32-f64b-4b9d-ba9d-ae8ecfbaec92",
+	"00000000-0000-0000-0000-000000000000",
+	'inst_ref<mcboj>',
+	'',
+	'',
+	'../compiler.xtuml');
+INSERT INTO O_TFR
+	VALUES ("73d01d0f-4f26-45fd-9838-53436eb1c439",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	'setprojectroot',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	0,
+	'mcboj = MCBOJ::getDefaultInstance();
+mcboj.projectroot = param.value;',
+	1,
+	'',
+	"e7f14818-c7c4-4c12-87b9-7e804b1a485d",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("b2d37b44-2ee4-4b3b-bf94-fcdefd64cd44",
+	"73d01d0f-4f26-45fd-9838-53436eb1c439",
+	'value',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("cfaf6a1b-1ef3-495b-ad4f-6bfd40824cd5",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	'setversion',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	0,
+	'mcboj = MCBOJ::getDefaultInstance();
+mcboj.version = param.value;',
+	1,
+	'',
+	"73d01d0f-4f26-45fd-9838-53436eb1c439",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("d54fab20-14cd-43de-a591-5b5e01fa6878",
+	"cfaf6a1b-1ef3-495b-ad4f-6bfd40824cd5",
+	'value',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("e113d8b2-eb7c-4dec-8b5c-0d06a35be847",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_BATTR
+	VALUES ("e113d8b2-eb7c-4dec-8b5c-0d06a35be847",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_ATTR
+	VALUES ("e113d8b2-eb7c-4dec-8b5c-0d06a35be847",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	"134651b8-c376-4126-aa2a-35217e664ed4",
+	'projectroot',
+	'',
+	'',
+	'projectroot',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("134651b8-c376-4126-aa2a-35217e664ed4",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_BATTR
+	VALUES ("134651b8-c376-4126-aa2a-35217e664ed4",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_ATTR
+	VALUES ("134651b8-c376-4126-aa2a-35217e664ed4",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	"00000000-0000-0000-0000-000000000000",
+	'name',
+	'',
+	'',
+	'name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("57808ea6-a488-4bd7-a313-c5820203062d",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_BATTR
+	VALUES ("57808ea6-a488-4bd7-a313-c5820203062d",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_ATTR
+	VALUES ("57808ea6-a488-4bd7-a313-c5820203062d",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	"e113d8b2-eb7c-4dec-8b5c-0d06a35be847",
+	'version',
+	'',
+	'',
+	'version',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_OIDA
+	VALUES ("134651b8-c376-4126-aa2a-35217e664ed4",
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	0,
+	'name');
+INSERT INTO O_ID
+	VALUES (1,
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO O_ID
+	VALUES (2,
+	"e0dc7de0-8b74-4713-b82f-8ffa2fddd30a");
+INSERT INTO PE_PE
+	VALUES ("e0dc7de0-8b74-4713-b82f-8ffa2fddd30a",
+	1,
+	"99249f5c-167e-439e-af2f-89337ccce658",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("99249f5c-167e-439e-af2f-89337ccce658",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'compiler',
+	'',
+	0,
+	'../compiler.xtuml');

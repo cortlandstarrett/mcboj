@@ -1,0 +1,71 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("4ce070ad-7239-45ca-b33c-74ad97e1c2b4",
+	"00000000-0000-0000-0000-000000000000",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'ooaofooa',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("d58886c9-481c-49ab-b20c-f37e06a66d40",
+	112,
+	"4ce070ad-7239-45ca-b33c-74ad97e1c2b4",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'mcboj::mcboj::mcboj::ooaofooa');
+INSERT INTO DIM_DIA
+	VALUES ("d58886c9-481c-49ab-b20c-f37e06a66d40",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO EP_PKGREF
+	VALUES ("4ce070ad-7239-45ca-b33c-74ad97e1c2b4",
+	"53c53174-40a3-4d71-a2d9-4d8fbbf1e693");
+INSERT INTO EP_PKG_PROXY
+	VALUES ("53c53174-40a3-4d71-a2d9-4d8fbbf1e693",
+	"00c718a4-fada-4398-be36-d920a6735b6a",
+	"00c718a4-fada-4398-be36-d920a6735b6a",
+	'ooaofooa',
+	'
+
+
+',
+	0,
+	'../../../../../../mcooa/models/mcooa/ooaofooa/ooaofooa.xtuml');
+INSERT INTO PE_PE
+	VALUES ("4ce070ad-7239-45ca-b33c-74ad97e1c2b4",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	7);
+INSERT INTO C_C_PROXY
+	VALUES ("21099b4f-d0ad-4e30-b905-60452b1b5b8c",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'mcboj',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../mcboj.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'mcboj',
+	1,
+	'../../../mcboj.xtuml');
