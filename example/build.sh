@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CIERA_RUNTIME_VERSION=1.1.7
+CIERA_RUNTIME_VERSION=1.1.8
 MCBOJ_VERSION=0.0.1
 
 # check arguments

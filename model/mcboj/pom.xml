@@ -13,7 +13,7 @@
     <dependency>
       <groupId>io.ciera</groupId>
       <artifactId>io.ciera.runtime</artifactId>
-      <version>1.1.7</version>
+      <version>1.1.8</version>
     </dependency>
     <dependency>
       <groupId>org.xtuml</groupId>
@@ -31,7 +31,7 @@
       <plugin>
         <groupId>io.ciera</groupId>
         <artifactId>ciera-maven-plugin</artifactId>
-        <version>1.1.7</version>
+        <version>1.1.8</version>
         <executions>
           <execution>
             <id>pre-build</id>

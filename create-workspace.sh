@@ -1,7 +1,7 @@
 #!/bin/bash
 MCOOA_VERSION=1.0.0
 MARKING_VERSION=6.18.0
-CIERA_VERSION=1.1.7
+CIERA_VERSION=1.1.8
 if [[ $# != 1 ]]; then
   echo "Usage:"
   echo "  ./create-workspace.sh <workspace>"
