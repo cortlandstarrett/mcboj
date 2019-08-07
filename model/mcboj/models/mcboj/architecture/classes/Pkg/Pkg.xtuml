@@ -16,12 +16,16 @@ INSERT INTO O_TFR
 	1,
 	'select many model_classes related by self->Cls[R3902];
 if (not_empty model_classes)
+  sep = "";
   for each cls in model_classes
+    T::append(s:sep);
     cls.render();
+    sep = "\n";
   end for;
   classes = T::body();
   T::include(file:"class/t.package.ads");
   T::emit(file:self.file_path);
+  T::clear();
 end if;',
 	1,
 	'',

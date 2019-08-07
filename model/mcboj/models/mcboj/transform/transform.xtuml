@@ -76,12 +76,12 @@ INSERT INTO S_SYNC
 
 // create package
 create object instance file of File;
-file.name = ep_pkg.Name;
+file.name = T::sub(format:"lr", s:ep_pkg.Name);
 file.base_dir = "";
 file.extension = "ads";
 file.full_path = File::get_full_path(base_dir:file.base_dir, name:file.name, extension:file.extension);
 create object instance pkg of Pkg;
-pkg.name = file.name;
+pkg.name = T::sub(format:"r", s:ep_pkg.Name);
 pkg.description = ep_pkg.Descrip;
 relate pkg to file across R3950;
 
@@ -241,6 +241,12 @@ if (s_dt.Name == "same_as<Base_Attribute>")
 end if;
 select any type from instances of Type where (selected.xtuml_type_name == s_dt.Name);
 create object instance type_ref of TypeReference;
+if (empty type)
+  // TODO for now, if a type does not exist, create a new one...
+  create object instance type of Type;
+  type.name = "Integer";
+  type.xtuml_type_name = s_dt.Name;
+end if;
 relate attr to type across R3901 using type_ref;',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
@@ -295,26 +301,17 @@ for each s_dt in s_dts
   select one c_c related by s_dt->PE_PE[R8001]->C_C[R8003];
   select one ep_pkg related by s_dt->PE_PE[R8001]->EP_PKG[R8000];
   if ( empty c_c and empty ep_pkg )
-    type_name = "";
+    type_name = "Integer";
     if ( "boolean" == s_dt.Name )
       type_name = "Boolean";
-    elif ( "component_ref" == s_dt.Name )
-    elif ( "date" == s_dt.Name )
-    elif ( "inst<Event>" == s_dt.Name )
-    elif ( "inst_ref<Timer>" == s_dt.Name )
     elif ( "integer" == s_dt.Name )
       type_name = "Integer";
     elif ( "real" == s_dt.Name )
       type_name = "Float";
     elif ( "string" == s_dt.Name )
       type_name = "String";
-    elif ( "timestamp" == s_dt.Name )
-    elif ( "unique_id" == s_dt.Name )
-    elif ( "void" == s_dt.Name )
-    elif ( "inst_ref_set<Object>" == s_dt.Name )
-    elif ( "inst_ref<Object>" == s_dt.Name )
-    elif ( "inst_ref<Mapping>" == s_dt.Name )
-    elif ( "inst<Mapping>" == s_dt.Name )
+    else
+      // TODO finish mapping all built-in types to Ada types
     end if;
     if ("" != type_name) 
       create object instance type of Type;

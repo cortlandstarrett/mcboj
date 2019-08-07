@@ -4,5 +4,4 @@
 package ${self.name} is
 
 ${classes}
-
 end ${self.name};

@@ -1,4 +1,3 @@
    type ${self.name} is tagged
       record
-${attributes}
-      end record;
+${attributes}      end record;
