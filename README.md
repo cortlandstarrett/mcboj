@@ -6,9 +6,10 @@ Ada 2012 model compiler
 ## System requirements
 
 - Python
+- ply: https://pypi.org/project/ply/
+- pyxtuml (installed from source): https://github.com/xtuml/pyxtuml
 - Maven: https://maven.apache.org/
 - GNAT: https://www.adacore.com/community
-- pyxtuml (installed from source): https://github.com/xtuml/pyxtuml
 - BridgePoint (nightly build): https://xtuml.org/download/
 
 ## Installing pyxtuml
