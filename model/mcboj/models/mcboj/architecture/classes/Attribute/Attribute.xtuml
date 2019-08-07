@@ -55,7 +55,7 @@ INSERT INTO O_REF
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'Class',
+	'Cls',
 	'name',
 	'R3900.''describes''');
 INSERT INTO R_RGO_PROXY
@@ -80,7 +80,7 @@ INSERT INTO O_RATTR
 INSERT INTO O_BATTR_PROXY
 	VALUES ("d3347266-f1b7-479c-841b-15c7bb929eb1",
 	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
-	'../Class/Class.xtuml');
+	'../Cls/Cls.xtuml');
 INSERT INTO O_ATTR
 	VALUES ("076005b0-0e90-4216-a5ba-e3ac06e6bedb",
 	"e94b340d-2124-4312-9a76-c419351834da",

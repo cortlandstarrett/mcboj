@@ -45,7 +45,7 @@ INSERT INTO O_RATTR
 INSERT INTO O_BATTR_PROXY
 	VALUES ("d3347266-f1b7-479c-841b-15c7bb929eb1",
 	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
-	'../Class/Class.xtuml');
+	'../Cls/Cls.xtuml');
 INSERT INTO O_ATTR
 	VALUES ("34838063-5a8f-4dd3-9e11-da92bdda0661",
 	"48f08c71-92b2-4cb1-9d6b-dd74c468ebc5",
@@ -117,7 +117,7 @@ INSERT INTO O_REF
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'DataType',
+	'Type',
 	'name',
 	'R3901.''is typed by''');
 INSERT INTO O_RTIDA_PROXY
@@ -137,7 +137,7 @@ INSERT INTO O_RATTR
 INSERT INTO O_BATTR_PROXY
 	VALUES ("f3eb5c21-b60c-4ac4-b965-92eea028a3fd",
 	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1",
-	'../DataType/DataType.xtuml');
+	'../Type/Type.xtuml');
 INSERT INTO O_ATTR
 	VALUES ("afd3ea2f-1749-457e-b759-b4a374a7f670",
 	"48f08c71-92b2-4cb1-9d6b-dd74c468ebc5",

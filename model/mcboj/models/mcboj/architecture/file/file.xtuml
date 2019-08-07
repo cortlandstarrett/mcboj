@@ -177,7 +177,7 @@ INSERT INTO GD_GE
 	"d1767b79-b974-47c0-ae2b-d51939cd8823",
 	23,
 	0,
-	'mcboj::architecture::file::Package');
+	'mcboj::architecture::file::Pkg');
 INSERT INTO GD_SHP
 	VALUES ("62467e78-d74e-4bac-8ff8-08279e1ca41f");
 INSERT INTO GD_NCS
@@ -206,7 +206,7 @@ INSERT INTO GD_GE
 	"faec594c-b6c1-4699-98c3-65846850fa57",
 	35,
 	0,
-	'mcboj::architecture::file::R3950::Package');
+	'mcboj::architecture::file::R3950::Pkg');
 INSERT INTO GD_CON
 	VALUES ("b22d41e7-10e0-4c5d-a30d-bd459160381f",
 	"00000000-0000-0000-0000-000000000000");
@@ -367,12 +367,12 @@ INSERT INTO R_OIR
 	"d1767b79-b974-47c0-ae2b-d51939cd8823");
 INSERT INTO O_OBJ_PROXY
 	VALUES ("878069dc-df9b-4f55-bed7-4c95cd1be2f9",
-	'Package',
+	'Pkg',
 	104,
-	'Package',
+	'Pkg',
 	'',
 	"00000000-0000-0000-0000-000000000000",
-	'../classes/Package/Package.xtuml');
+	'../classes/Pkg/Pkg.xtuml');
 INSERT INTO PE_PE
 	VALUES ("172d7db9-eb3e-47e4-821c-835d771fa154",
 	1,
@@ -384,8 +384,8 @@ INSERT INTO O_IOBJ
 	"878069dc-df9b-4f55-bed7-4c95cd1be2f9",
 	0,
 	"00000000-0000-0000-0000-000000000000",
-	'Package',
-	'Package');
+	'Pkg',
+	'Pkg');
 INSERT INTO PE_PE
 	VALUES ("d1767b79-b974-47c0-ae2b-d51939cd8823",
 	1,

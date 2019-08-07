@@ -2,9 +2,9 @@
 
 INSERT INTO O_OBJ
 	VALUES ("a22c14f8-f504-46e8-89cf-1ea6988565dc",
-	'Class',
+	'Cls',
 	100,
-	'Class',
+	'Cls',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_TFR
@@ -57,7 +57,7 @@ INSERT INTO O_REF
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'Package',
+	'Pkg',
 	'name',
 	'R3902.''defined in''');
 INSERT INTO R_RGO_PROXY
@@ -82,7 +82,7 @@ INSERT INTO O_RATTR
 INSERT INTO O_BATTR_PROXY
 	VALUES ("e5991121-f832-4f2e-9dc0-d0b6eac52a91",
 	"878069dc-df9b-4f55-bed7-4c95cd1be2f9",
-	'../Package/Package.xtuml');
+	'../Pkg/Pkg.xtuml');
 INSERT INTO O_ATTR
 	VALUES ("c6335faa-095d-4687-a963-b5acd85880cd",
 	"a22c14f8-f504-46e8-89cf-1ea6988565dc",

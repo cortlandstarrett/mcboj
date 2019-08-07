@@ -80,7 +80,7 @@ file.name = ep_pkg.Name;
 file.base_dir = "";
 file.extension = "ads";
 file.full_path = File::get_full_path(base_dir:file.base_dir, name:file.name, extension:file.extension);
-create object instance pkg of Package;
+create object instance pkg of Pkg;
 pkg.name = file.name;
 pkg.description = ep_pkg.Descrip;
 relate pkg to file across R3950;
@@ -132,7 +132,7 @@ INSERT INTO S_SYNC
 pkg = param.pkg;
 
 // create class
-create object instance cls of Class;
+create object instance cls of Cls;
 cls.name = o_obj.Key_Lett;
 relate cls to pkg across R3902;
 
@@ -173,7 +173,7 @@ INSERT INTO S_SPARM
 INSERT INTO S_DT_PROXY
 	VALUES ("935aec84-a35c-4bcc-8f63-9caeff022958",
 	"00000000-0000-0000-0000-000000000000",
-	'inst_ref<Package>',
+	'inst_ref<Pkg>',
 	'',
 	'',
 	'../architecture/classes/classes.xtuml');
@@ -239,7 +239,7 @@ select one s_dt related by o_attr->S_DT[R114];
 if (s_dt.Name == "same_as<Base_Attribute>")
   select one s_dt related by o_attr->O_RATTR[R106]->O_BATTR[R113]->O_ATTR[R106]->S_DT[R114];
 end if;
-select any type from instances of DataType where (selected.xtuml_type_name == s_dt.Name);
+select any type from instances of Type where (selected.xtuml_type_name == s_dt.Name);
 create object instance type_ref of TypeReference;
 relate attr to type across R3901 using type_ref;',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -274,7 +274,7 @@ INSERT INTO S_SPARM
 INSERT INTO S_DT_PROXY
 	VALUES ("dfb8d8ed-16f6-45be-aad9-e331550dac52",
 	"00000000-0000-0000-0000-000000000000",
-	'inst_ref<Class>',
+	'inst_ref<Cls>',
 	'',
 	'',
 	'../architecture/classes/classes.xtuml');
@@ -317,7 +317,7 @@ for each s_dt in s_dts
     elif ( "inst<Mapping>" == s_dt.Name )
     end if;
     if ("" != type_name) 
-      create object instance type of DataType;
+      create object instance type of Type;
       type.name = type_name;
       type.xtuml_type_name = s_dt.Name;
     end if;

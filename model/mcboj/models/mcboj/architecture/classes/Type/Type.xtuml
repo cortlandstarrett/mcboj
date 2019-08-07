@@ -2,9 +2,9 @@
 
 INSERT INTO O_OBJ
 	VALUES ("0a1be884-acc8-46e4-8fe3-fc7fceadafa1",
-	'DataType',
+	'Type',
 	102,
-	'DataType',
+	'Type',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR

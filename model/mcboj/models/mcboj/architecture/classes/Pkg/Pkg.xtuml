@@ -2,9 +2,9 @@
 
 INSERT INTO O_OBJ
 	VALUES ("878069dc-df9b-4f55-bed7-4c95cd1be2f9",
-	'Package',
+	'Pkg',
 	104,
-	'Package',
+	'Pkg',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_TFR
@@ -14,7 +14,7 @@ INSERT INTO O_TFR
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
-	'select many model_classes related by self->Class[R3902];
+	'select many model_classes related by self->Cls[R3902];
 if (not_empty model_classes)
   for each cls in model_classes
     cls.render();

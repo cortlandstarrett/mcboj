@@ -14,7 +14,7 @@ INSERT INTO O_TFR
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
-	'select one pack related by self->Package[R3950];
+	'select one pack related by self->Pkg[R3950];
 if (not_empty pack)
   pack.render();
 end if;',
