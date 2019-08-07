@@ -25,6 +25,24 @@ INSERT INTO O_ATTR
 	"ba5eda7a-def5-0000-0000-000000000004",
 	'',
 	'');
+INSERT INTO O_NBATTR
+	VALUES ("2c1832c9-d858-4bf3-a816-b4d457e202b5",
+	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1");
+INSERT INTO O_BATTR
+	VALUES ("2c1832c9-d858-4bf3-a816-b4d457e202b5",
+	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1");
+INSERT INTO O_ATTR
+	VALUES ("2c1832c9-d858-4bf3-a816-b4d457e202b5",
+	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1",
+	"f3eb5c21-b60c-4ac4-b965-92eea028a3fd",
+	'xtuml_type_name',
+	'',
+	'',
+	'xtuml_type_name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1");
@@ -36,6 +54,11 @@ INSERT INTO O_OIDA
 INSERT INTO O_ID
 	VALUES (1,
 	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1");
+INSERT INTO O_OIDA
+	VALUES ("2c1832c9-d858-4bf3-a816-b4d457e202b5",
+	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1",
+	1,
+	'xtuml_type_name');
 INSERT INTO O_ID
 	VALUES (2,
 	"0a1be884-acc8-46e4-8fe3-fc7fceadafa1");

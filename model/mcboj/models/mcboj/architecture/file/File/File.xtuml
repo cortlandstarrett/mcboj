@@ -22,6 +22,52 @@ end if;',
 	'',
 	"00000000-0000-0000-0000-000000000000",
 	0);
+INSERT INTO O_TFR
+	VALUES ("869bb6cc-d684-4c95-9671-10221c9e79e6",
+	"fa706c98-0328-4ed9-a38e-70c3fa184e58",
+	'get_full_path',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'path = param.name;
+if ("" != param.base_dir)
+  path = param.base_dir + "/" + path;
+end if;
+if ("" != param.extension)
+  path = path + "." + param.extension;
+end if;
+return path;',
+	1,
+	'',
+	"c171a1b7-d537-4b8d-bf8d-dfcc9a9a7d46",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("bdbd3898-394b-4f60-8eb9-0794a7190e6f",
+	"869bb6cc-d684-4c95-9671-10221c9e79e6",
+	'base_dir',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("11e85700-89f7-42dd-888e-6065a7e4e539",
+	"869bb6cc-d684-4c95-9671-10221c9e79e6",
+	'name',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"bdbd3898-394b-4f60-8eb9-0794a7190e6f",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("deb3598d-f379-450a-8fe7-6379a4c306ee",
+	"869bb6cc-d684-4c95-9671-10221c9e79e6",
+	'extension',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"11e85700-89f7-42dd-888e-6065a7e4e539",
+	'');
 INSERT INTO O_NBATTR
 	VALUES ("c31ca7dd-cefb-43f6-bde0-25d8070a2df5",
 	"fa706c98-0328-4ed9-a38e-70c3fa184e58");
