@@ -1,0 +1,125 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	'Class',
+	100,
+	'Class',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("5394d5af-ee9a-424b-8147-eca6930cddfa",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	'render',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'T::push_buffer();
+select many attrs related by self->Attribute[R3900];
+for each attr in attrs
+  attr.render();
+end for;
+attributes = T::body();
+T::pop_buffer();
+T::include(file:"class/t.class.ada");',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO O_NBATTR
+	VALUES ("d3347266-f1b7-479c-841b-15c7bb929eb1",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc");
+INSERT INTO O_BATTR
+	VALUES ("d3347266-f1b7-479c-841b-15c7bb929eb1",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc");
+INSERT INTO O_ATTR
+	VALUES ("d3347266-f1b7-479c-841b-15c7bb929eb1",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	"00000000-0000-0000-0000-000000000000",
+	'name',
+	'',
+	'',
+	'name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	"878069dc-df9b-4f55-bed7-4c95cd1be2f9",
+	0,
+	"e5991121-f832-4f2e-9dc0-d0b6eac52a91",
+	"28423212-b210-4963-b5b5-a28a85b1f637",
+	"3a7bf91d-875a-4736-a27b-b375f4fe87d1",
+	"b9251b79-08de-40c8-867b-7e4f56d6952e",
+	"c6335faa-095d-4687-a963-b5acd85880cd",
+	"75f57726-0fda-4be4-b5ef-a4e35267bcf1",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Package',
+	'name',
+	'R3902.''defined in''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	"28423212-b210-4963-b5b5-a28a85b1f637",
+	"3a7bf91d-875a-4736-a27b-b375f4fe87d1",
+	'../classes.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("e5991121-f832-4f2e-9dc0-d0b6eac52a91",
+	"878069dc-df9b-4f55-bed7-4c95cd1be2f9",
+	0,
+	"28423212-b210-4963-b5b5-a28a85b1f637",
+	"b9251b79-08de-40c8-867b-7e4f56d6952e",
+	'../classes.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("c6335faa-095d-4687-a963-b5acd85880cd",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	"e5991121-f832-4f2e-9dc0-d0b6eac52a91",
+	"878069dc-df9b-4f55-bed7-4c95cd1be2f9",
+	1,
+	'name');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("e5991121-f832-4f2e-9dc0-d0b6eac52a91",
+	"878069dc-df9b-4f55-bed7-4c95cd1be2f9",
+	'../Package/Package.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("c6335faa-095d-4687-a963-b5acd85880cd",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	"d3347266-f1b7-479c-841b-15c7bb929eb1",
+	'package_name',
+	'',
+	'package_',
+	'name',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc");
+INSERT INTO O_OIDA
+	VALUES ("d3347266-f1b7-479c-841b-15c7bb929eb1",
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	0,
+	'name');
+INSERT INTO O_ID
+	VALUES (1,
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc");
+INSERT INTO O_ID
+	VALUES (2,
+	"a22c14f8-f504-46e8-89cf-1ea6988565dc");
+INSERT INTO PE_PE
+	VALUES ("a22c14f8-f504-46e8-89cf-1ea6988565dc",
+	1,
+	"fb897671-a6f9-4555-9238-d5a07bf590b2",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("fb897671-a6f9-4555-9238-d5a07bf590b2",
+	"00000000-0000-0000-0000-000000000000",
+	"4c44933c-e6e2-47bb-b8a2-1d0e364d9479",
+	'classes',
+	'',
+	3900,
+	'../classes.xtuml');
