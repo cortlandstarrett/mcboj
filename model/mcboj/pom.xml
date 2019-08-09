@@ -38,9 +38,6 @@
             <goals>
               <goal>pyxtuml-pre-build</goal>
             </goals>
-            <configuration>
-              <pythonExecutable>pypy</pythonExecutable>
-            </configuration>
           </execution>
           <execution>
             <id>ciera-core</id>
